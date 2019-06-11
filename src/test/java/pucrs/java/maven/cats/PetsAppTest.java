@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Unit test for simple GatoApp.
  */
-public class CatsAppTest {
+public class PetsAppTest {
 	/**
 	 * A simple test.
 	 */
