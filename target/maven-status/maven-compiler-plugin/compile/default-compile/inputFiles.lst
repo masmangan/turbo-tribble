@@ -1,5 +1,6 @@
-C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\cats\Dog.java
-C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\cats\Cat.java
-C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\cats\PetsApp.java
-C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\cats\PetCatalog.java
-C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\cats\Pet.java
+C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\pets\model\Cat.java
+C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\pets\framework\PetCatalog.java
+C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\pets\model\Fish.java
+C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\pets\app\PetsApp.java
+C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\pets\model\Dog.java
+C:\Users\Java\turbo-tribble\src\main\java\pucrs\java\maven\pets\framework\Pet.java

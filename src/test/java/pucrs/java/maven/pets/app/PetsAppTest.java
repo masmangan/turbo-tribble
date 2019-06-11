@@ -1,4 +1,4 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.pets.app;
 
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;

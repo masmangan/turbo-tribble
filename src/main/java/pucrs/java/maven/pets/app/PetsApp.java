@@ -1,4 +1,11 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.pets.app;
+
+import pucrs.java.maven.pets.framework.Pet;
+import pucrs.java.maven.pets.framework.PetCatalog;
+import pucrs.java.maven.pets.framework.Pet.Gender;
+import pucrs.java.maven.pets.model.Cat;
+import pucrs.java.maven.pets.model.Dog;
+import pucrs.java.maven.pets.model.Fish;
 
 /**
  * The class GatosApp is pet clinic system starting point.
@@ -21,6 +28,8 @@ public class PetsApp {
 		pets.add(new Dog("Marley", Pet.Gender.MALE));
 		pets.add(new Dog("Lassie", Pet.Gender.FEMALE));
 		
+		pets.add(new Fish("Dory", Pet.Gender.FEMALE));
+
 		pets.doTalk();
 
 	}

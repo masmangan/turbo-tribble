@@ -1,4 +1,4 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.pets.framework;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,7 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.pets.model;
+
+import pucrs.java.maven.pets.framework.Pet;
+import pucrs.java.maven.pets.framework.Pet.Gender;
 
 public class Cat extends Pet {
 
