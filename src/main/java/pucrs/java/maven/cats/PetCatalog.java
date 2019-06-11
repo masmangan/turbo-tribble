@@ -13,33 +13,23 @@ public class PetCatalog {
 	/**
 	 * 
 	 */
-	private List<Cat> cats = new ArrayList<Cat>();
-	private List<Dog> dogs = new ArrayList<Dog>();
+	private List<Pet> pets = new ArrayList<Pet>();
 
 	/**
 	 * 
 	 * @param cat
 	 */
-	public void add(Cat cat) {
-		cats.add(cat);
+	public void add(Pet pet) {
+		pets.add(pet);
 	}
 
-	public void add(Dog dog) {
-		dogs.add(dog);
-	}
-	
-	
-	public void doMeow() {
-		for (Cat cat : cats) {
-			System.out.println(cat.meow());
+	/**
+	 * 
+	 */
+	public void doTalk() {
+		for (Pet pet : pets) {
+			System.out.println(pet.talk());
 		}
 	}
-
-	public void doBark() {
-		for (Dog dog : dogs) {
-			System.out.println(dog.bark());
-		}
-	}
-	
 	
 }

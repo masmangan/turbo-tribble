@@ -8,13 +8,13 @@ public class CatTest {
 
 	@Test
 	public void testCatHasAName() {
-		Cat garfield = new Cat("Garfield");
+		Pet garfield = new Cat("Garfield", Pet.Gender.MALE);
 		assertEquals("Garfield", garfield.getName());
 	}
 
 	@Test
 	public void testCatHasAMeow() {
-		Cat garfield = new Cat("Garfield");
+		Cat garfield = new Cat("Garfield", Pet.Gender.MALE);
 		assertEquals("Garfield Meow!", garfield.meow());
 	}
 }

@@ -1,20 +1,27 @@
 package pucrs.java.maven.cats;
 
-public class Dog {
+public class Dog extends Pet {
 
-	private String name;
-
+	/**
+	 * Use Dog(String, Pet.Gender) instead.
+	 * @param name
+	 */
+	@Deprecated
 	public Dog(String name) {
-		super();
-		this.name = name;
+		super(name, Pet.Gender.MALE);
 	}
-
-	public String getName() {
-		return name;
+	
+	public Dog(String name, Pet.Gender sex) {
+		super(name, sex);
 	}
-
+	
 	public String bark() {
-		return name + " " + "Whoof!";
+		return getName() + " " + "Whoof!";
+	}
+
+	@Override
+	public String talk() {
+		return bark();
 	}
 
 }

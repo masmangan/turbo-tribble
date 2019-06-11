@@ -12,17 +12,16 @@ public class PetsApp {
 	public static void main(String[] args) {
 		System.out.println("Cats!");
 
-		PetCatalog cats = new PetCatalog();
-		cats.add(new Cat("Garfield"));
-		cats.add(new Cat("Tom"));
-		cats.add(new Cat("TopCat"));
+		PetCatalog pets = new PetCatalog();
+		pets.add(new Cat("Garfield", Pet.Gender.MALE));
+		pets.add(new Cat("Tom", Pet.Gender.MALE));
+		pets.add(new Cat("Lilly", Pet.Gender.FEMALE));
 
-		cats.add(new Dog("Beethoven"));
-		cats.add(new Dog("Marley"));
-		cats.add(new Dog("Bud"));
+		pets.add(new Dog("Beethoven", Pet.Gender.MALE));
+		pets.add(new Dog("Marley", Pet.Gender.MALE));
+		pets.add(new Dog("Lassie", Pet.Gender.FEMALE));
 		
-		
-		cats.doMeow();
-		cats.doBark();
+		pets.doTalk();
+
 	}
 }
