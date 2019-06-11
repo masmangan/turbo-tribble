@@ -14,13 +14,19 @@ public class CatCatalog {
 	 * 
 	 */
 	private List<Cat> cats = new ArrayList<Cat>();
-	
+
 	/**
 	 * 
 	 * @param cat
 	 */
 	public void add(Cat cat) {
 		cats.add(cat);
+	}
+
+	public void doMeow() {
+		for (Cat cat : cats) {
+			System.out.println(cat.meow());
+		}
 	}
 
 }

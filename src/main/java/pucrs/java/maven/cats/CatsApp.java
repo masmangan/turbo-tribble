@@ -17,5 +17,6 @@ public class CatsApp {
 		cats.add(new Cat("Tom"));
 		cats.add(new Cat("TopCat"));
 
+		cats.doMeow();
 	}
 }
